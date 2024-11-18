@@ -28,16 +28,5 @@ class Program
                 index = i;
             }
         }
-
-        // Проверка на заполненность массива(для исключения результата при 0 длине)
-        if (n > 0)
-        {
-            Console.WriteLine($"Наибольший элемент массива: {maxElement}");
-            Console.WriteLine($"Порядковый номер элемента: {index}");
-        }
-        else
-        {
-            Console.WriteLine("Массив пустой");
-        }
     }
 }
